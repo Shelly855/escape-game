@@ -1,6 +1,6 @@
 ﻿namespace ProgrammingCourseworkGUI
 {
-    partial class tutorialForm
+    partial class TutorialForm
     {
         /// <summary>
         /// Required designer variable.
@@ -76,7 +76,7 @@
             backButton.UseVisualStyleBackColor = true;
             backButton.Click += backButton_Click;
             // 
-            // tutorialForm
+            // TutorialForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -85,7 +85,7 @@
             Controls.Add(nextButton);
             Controls.Add(tutorialLabel);
             Controls.Add(numberLabel);
-            Name = "tutorialForm";
+            Name = "TutorialForm";
             Text = "Tutorial";
             FormClosing += tutorialForm_FormClosing;
             ResumeLayout(false);

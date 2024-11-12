@@ -9,7 +9,7 @@ namespace ProgrammingCourseworkGUI
     public partial class MainForm : Form
     {
         // Other forms
-        private tutorialForm tutorialForm;
+        private TutorialForm tutorialForm;
         private ArcadeForm arcadeForm;
 
         // To track status of puzzles and events
@@ -38,7 +38,7 @@ namespace ProgrammingCourseworkGUI
             UserStats();
             inventoryListBox.SelectedIndexChanged += InventoryListBox_SelectedIndexChanged;
 
-            tutorialForm = new tutorialForm();
+            tutorialForm = new TutorialForm();
             arcadeForm = new ArcadeForm(this);
             choiceComboBox.SelectedIndexChanged += choiceComboBox_SelectedIndexChanged;
             PopulateChoices("Room");
