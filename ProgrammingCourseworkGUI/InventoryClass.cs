@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProgrammingCourseworkGUI
 {
+    // Reference = https://gamedev.stackexchange.com/questions/124802/c-how-to-add-inventory-to-player-npcs-and-in-game-objects
     internal class Inventory
     {
         public string name { get; set; }
@@ -14,5 +15,3 @@ namespace ProgrammingCourseworkGUI
         public string locationFound { get; set; }
     }
 }
-
-//reference = https://gamedev.stackexchange.com/questions/124802/c-how-to-add-inventory-to-player-npcs-and-in-game-objects
