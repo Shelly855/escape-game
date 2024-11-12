@@ -17,6 +17,7 @@ namespace ProgrammingCourseworkGUI
         private bool arcadePuzzleSolved = false;
         private bool fortuneTold = false; //for PickUpBox
         private bool padlockUnlocked = false;
+        private bool goldenBellUsed = false;
 
         // List to contain items collected by player
         private List<Inventory> inventory = new List<Inventory>();
@@ -386,7 +387,7 @@ namespace ProgrammingCourseworkGUI
         void ExaminePictureFrame()
         {
             subOptionLabel.Text = "";
-            if (!inventory.Contains(goldenBell))
+            if (!inventory.Contains(goldenBell) && !goldenBellUsed)
             {
                 mainLabel.Text = "You pick up the Picture.\n" +
                                  "The edges of the frame are worn smooth, and the glass is clear and free of dust.\n" +
@@ -499,6 +500,9 @@ namespace ProgrammingCourseworkGUI
                     subOptionLabel.Text = "The Golden Bell has restored your health.";
                     playerOne.health = 100;
                     UserStats();
+                    inventory.Remove(goldenBell);
+                    inventoryListBox.Items.Remove(goldenBell.name);
+                    goldenBellUsed = true;
                 }
                 else
                 {
@@ -520,6 +524,10 @@ namespace ProgrammingCourseworkGUI
                     subOptionLabel.Text = "The Golden Bell has restored your energy.";
                     playerOne.energy = 100;
                     UserStats();
+                    inventory.Remove(goldenBell);
+                    inventoryListBox.Items.Remove(goldenBell.name);
+                    goldenBellUsed = true;
+
                 }
                 else
                 {
