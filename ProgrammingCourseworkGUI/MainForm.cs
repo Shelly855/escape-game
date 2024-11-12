@@ -124,7 +124,7 @@ namespace ProgrammingCourseworkGUI
             choiceComboBox.Items.Add("Go back");
             mainLabel.Text = "You are at the Cabinet.\n" +
                              "You see a cabinet with three drawers and a box on top.\n" +
-                             "Choose an option from the dropdown:";
+                             "Choose an option from the dropdown.";
         }
 
         private void SetUpWindowOptions()
@@ -137,7 +137,7 @@ namespace ProgrammingCourseworkGUI
             mainLabel.Text = "You are at the Window.\n" +
                              "The window is locked by a padlock with curtains draped on either side.\n" +
                              "A picture frame lies to the left.\n" +
-                             "Choose an option from the dropdown:";
+                             "Choose an option from the dropdown.";
         }
 
         private void SetUpLeftCurtainOptions()

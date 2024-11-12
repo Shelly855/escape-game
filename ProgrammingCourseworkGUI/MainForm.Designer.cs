@@ -44,10 +44,10 @@
             // 
             mainLabel.AutoSize = true;
             mainLabel.BackColor = SystemColors.InactiveCaption;
-            mainLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            mainLabel.Location = new Point(237, 68);
+            mainLabel.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            mainLabel.Location = new Point(300, 97);
             mainLabel.Name = "mainLabel";
-            mainLabel.Size = new Size(52, 28);
+            mainLabel.Size = new Size(70, 32);
             mainLabel.TabIndex = 0;
             mainLabel.Text = "        ";
             // 
@@ -85,10 +85,10 @@
             // 
             subOptionLabel.AutoSize = true;
             subOptionLabel.BackColor = SystemColors.InactiveCaption;
-            subOptionLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            subOptionLabel.Location = new Point(232, 492);
+            subOptionLabel.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            subOptionLabel.Location = new Point(300, 497);
             subOptionLabel.Name = "subOptionLabel";
-            subOptionLabel.Size = new Size(57, 28);
+            subOptionLabel.Size = new Size(77, 32);
             subOptionLabel.TabIndex = 14;
             subOptionLabel.Text = "         ";
             // 
