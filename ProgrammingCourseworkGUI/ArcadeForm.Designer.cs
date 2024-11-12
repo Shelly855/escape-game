@@ -38,10 +38,10 @@
             // 
             arcadeLabel.AutoSize = true;
             arcadeLabel.BackColor = SystemColors.InactiveCaption;
-            arcadeLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            arcadeLabel.Location = new Point(70, 33);
+            arcadeLabel.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            arcadeLabel.Location = new Point(43, 34);
             arcadeLabel.Name = "arcadeLabel";
-            arcadeLabel.Size = new Size(52, 25);
+            arcadeLabel.Size = new Size(70, 32);
             arcadeLabel.TabIndex = 1;
             arcadeLabel.Text = "        ";
             // 
@@ -68,12 +68,13 @@
             // 
             promptLabel.AutoSize = true;
             promptLabel.BackColor = SystemColors.InactiveCaption;
-            promptLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            promptLabel.Location = new Point(70, 223);
+            promptLabel.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            promptLabel.Location = new Point(321, 246);
             promptLabel.Name = "promptLabel";
-            promptLabel.Size = new Size(52, 25);
+            promptLabel.Size = new Size(70, 32);
             promptLabel.TabIndex = 5;
             promptLabel.Text = "        ";
+            promptLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // arcadeForm
             // 
