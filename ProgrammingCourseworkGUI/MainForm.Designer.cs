@@ -62,12 +62,12 @@
             // 
             // inventoryListBox
             // 
-            inventoryListBox.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            inventoryListBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             inventoryListBox.FormattingEnabled = true;
-            inventoryListBox.ItemHeight = 25;
+            inventoryListBox.ItemHeight = 28;
             inventoryListBox.Location = new Point(1305, 131);
             inventoryListBox.Name = "inventoryListBox";
-            inventoryListBox.Size = new Size(396, 254);
+            inventoryListBox.Size = new Size(396, 228);
             inventoryListBox.TabIndex = 7;
             // 
             // choiceLabel
@@ -96,10 +96,10 @@
             // 
             healthLabel.AutoSize = true;
             healthLabel.BackColor = Color.LightCoral;
-            healthLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            healthLabel.Location = new Point(1504, 518);
+            healthLabel.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            healthLabel.Location = new Point(1482, 521);
             healthLabel.Name = "healthLabel";
-            healthLabel.Size = new Size(57, 25);
+            healthLabel.Size = new Size(67, 30);
             healthLabel.TabIndex = 18;
             healthLabel.Text = "         ";
             // 
@@ -107,10 +107,10 @@
             // 
             energyLabel.AutoSize = true;
             energyLabel.BackColor = Color.Gold;
-            energyLabel.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            energyLabel.Location = new Point(1504, 608);
+            energyLabel.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            energyLabel.Location = new Point(1482, 599);
             energyLabel.Name = "energyLabel";
-            energyLabel.Size = new Size(57, 25);
+            energyLabel.Size = new Size(67, 30);
             energyLabel.TabIndex = 19;
             energyLabel.Text = "         ";
             // 
@@ -118,10 +118,10 @@
             // 
             inventoryLabel.AutoSize = true;
             inventoryLabel.BackColor = Color.LightGreen;
-            inventoryLabel.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            inventoryLabel.Location = new Point(1398, 50);
+            inventoryLabel.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            inventoryLabel.Location = new Point(1380, 52);
             inventoryLabel.Name = "inventoryLabel";
-            inventoryLabel.Size = new Size(237, 46);
+            inventoryLabel.Size = new Size(210, 41);
             inventoryLabel.TabIndex = 21;
             inventoryLabel.Text = "Your Inventory";
             // 
@@ -137,7 +137,7 @@
             // tutorialButton
             // 
             tutorialButton.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            tutorialButton.Location = new Point(1442, 690);
+            tutorialButton.Location = new Point(1424, 680);
             tutorialButton.Name = "tutorialButton";
             tutorialButton.Size = new Size(193, 55);
             tutorialButton.TabIndex = 23;
