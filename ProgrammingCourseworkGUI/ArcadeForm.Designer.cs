@@ -39,11 +39,12 @@
             arcadeLabel.AutoSize = true;
             arcadeLabel.BackColor = SystemColors.InactiveCaption;
             arcadeLabel.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            arcadeLabel.Location = new Point(43, 34);
+            arcadeLabel.Location = new Point(120, 44);
             arcadeLabel.Name = "arcadeLabel";
             arcadeLabel.Size = new Size(70, 32);
             arcadeLabel.TabIndex = 1;
             arcadeLabel.Text = "        ";
+            arcadeLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // answerTextBox
             // 
@@ -69,7 +70,7 @@
             promptLabel.AutoSize = true;
             promptLabel.BackColor = SystemColors.InactiveCaption;
             promptLabel.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            promptLabel.Location = new Point(321, 246);
+            promptLabel.Location = new Point(267, 237);
             promptLabel.Name = "promptLabel";
             promptLabel.Size = new Size(70, 32);
             promptLabel.TabIndex = 5;

@@ -23,9 +23,11 @@ namespace ProgrammingCourseworkGUI
             this.mainForm = mainForm;
             puzzleSolved = false;
 
-            arcadeLabel.Text = "Cat or Dog?\n" + 
-                               "Please enter the initials of your choice in the textbox and press confirm.";
-            promptLabel.Text = "e.g. c for Cat";
+            arcadeLabel.Text = "Cat or Dog?\n" +
+                               "Please enter the initials of your choice in the textbox\n" +
+                               "and press confirm.\n" +
+                               "e.g. c for Cat";
+            promptLabel.Text = "";
         }
 
         private void confirmButton_Click(object sender, EventArgs e)
