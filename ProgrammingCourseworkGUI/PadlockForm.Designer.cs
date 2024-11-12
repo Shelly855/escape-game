@@ -140,12 +140,13 @@
             // 
             padlockLabel.AutoSize = true;
             padlockLabel.BackColor = SystemColors.InactiveCaption;
-            padlockLabel.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            padlockLabel.Location = new Point(27, 56);
+            padlockLabel.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            padlockLabel.Location = new Point(82, 39);
             padlockLabel.Name = "padlockLabel";
-            padlockLabel.Size = new Size(60, 23);
+            padlockLabel.Size = new Size(73, 30);
             padlockLabel.TabIndex = 9;
             padlockLabel.Text = "          ";
+            padlockLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // padlockForm
             // 

@@ -56,9 +56,10 @@
             // 
             // nextButton
             // 
-            nextButton.Location = new Point(694, 25);
+            nextButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            nextButton.Location = new Point(684, 25);
             nextButton.Name = "nextButton";
-            nextButton.Size = new Size(94, 29);
+            nextButton.Size = new Size(94, 41);
             nextButton.TabIndex = 2;
             nextButton.Text = "Next";
             nextButton.UseVisualStyleBackColor = true;
@@ -66,9 +67,10 @@
             // 
             // backButton
             // 
-            backButton.Location = new Point(594, 25);
+            backButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            backButton.Location = new Point(575, 25);
             backButton.Name = "backButton";
-            backButton.Size = new Size(94, 29);
+            backButton.Size = new Size(94, 41);
             backButton.TabIndex = 3;
             backButton.Text = "Back";
             backButton.UseVisualStyleBackColor = true;

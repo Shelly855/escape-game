@@ -12,8 +12,8 @@ namespace ProgrammingCourseworkGUI
 {
     public partial class padlockForm : Form
     {
+        // Reference: https://social.msdn.microsoft.com/Forums/vstudio/en-US/6989594d-3ad9-4bc9-aa2c-98f0a59378b8/how-to-call-a-method-from-another-form-in-c-and-windows-forms?forum=csharpgeneral
         private mainForm mainForm;
-        //reference: https://social.msdn.microsoft.com/Forums/vstudio/en-US/6989594d-3ad9-4bc9-aa2c-98f0a59378b8/how-to-call-a-method-from-another-form-in-c-and-windows-forms?forum=csharpgeneral
 
         private int padlockCodeOne;
         private int padlockCodeTwo;
@@ -28,7 +28,7 @@ namespace ProgrammingCourseworkGUI
             padlockCodeTwo = codeTwo;
             padlockCodeThree = codeThree;
 
-            padlockLabel.Text = "You lift up the padlock to see that it is a 3-digit combination padlock marked with a blue rune.\n" +
+            padlockLabel.Text = "You see a 3-digit combination padlock marked with a blue rune.\n" +
                                 "Please enter a 3-digit code.";
         }
 
@@ -51,6 +51,7 @@ namespace ProgrammingCourseworkGUI
             }
         }
 
+        // For the first padlock digit
         private void windowPadlockNo1Left_Click(object sender, EventArgs e)
         {
             if (int.TryParse(windowPadlockNo1.Text, out int windowPadlockNo1Number))
@@ -97,6 +98,7 @@ namespace ProgrammingCourseworkGUI
             CheckPadlockCode();
         }
 
+        // For the second padlock digit
         private void windowPadlockNo2Left_Click(object sender, EventArgs e)
         {
             if (int.TryParse(windowPadlockNo2.Text, out int windowPadlockNo2Number))
@@ -143,6 +145,7 @@ namespace ProgrammingCourseworkGUI
             CheckPadlockCode();
         }
 
+        // For the third padlock digit
         private void windowPadlockNo3Left_Click(object sender, EventArgs e)
         {
             if (int.TryParse(windowPadlockNo3.Text, out int windowPadlockNo3Number))
@@ -188,7 +191,5 @@ namespace ProgrammingCourseworkGUI
 
             CheckPadlockCode();
         }
-
-        //reference = https://josipmisko.com/posts/c-sharp-tryparse
     }
 }
