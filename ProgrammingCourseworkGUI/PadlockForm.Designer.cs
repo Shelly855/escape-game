@@ -1,6 +1,6 @@
 ﻿namespace ProgrammingCourseworkGUI
 {
-    partial class padlockForm
+    partial class PadlockForm
     {
         /// <summary>
         /// Required designer variable.
@@ -148,7 +148,7 @@
             padlockLabel.Text = "          ";
             padlockLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // padlockForm
+            // PadlockForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -163,7 +163,7 @@
             Controls.Add(windowPadlockNo3);
             Controls.Add(windowPadlockNo2);
             Controls.Add(windowPadlockNo1);
-            Name = "padlockForm";
+            Name = "PadlockForm";
             Text = "Padlock";
             ResumeLayout(false);
             PerformLayout();

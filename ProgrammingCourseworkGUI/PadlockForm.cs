@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ProgrammingCourseworkGUI
 {
-    public partial class padlockForm : Form
+    public partial class PadlockForm : Form
     {
         // Reference: https://social.msdn.microsoft.com/Forums/vstudio/en-US/6989594d-3ad9-4bc9-aa2c-98f0a59378b8/how-to-call-a-method-from-another-form-in-c-and-windows-forms?forum=csharpgeneral
         private MainForm mainForm;
@@ -18,7 +18,7 @@ namespace ProgrammingCourseworkGUI
         private int padlockCodeOne;
         private int padlockCodeTwo;
         private int padlockCodeThree;
-        public padlockForm(MainForm mainForm, int codeOne, int codeTwo, int codeThree)
+        public PadlockForm(MainForm mainForm, int codeOne, int codeTwo, int codeThree)
         {
             InitializeComponent();
 

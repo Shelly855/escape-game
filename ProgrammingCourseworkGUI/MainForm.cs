@@ -341,7 +341,7 @@ namespace ProgrammingCourseworkGUI
         void TryPadlock()
         {
             // Creates new instance of padlockForm
-            padlockForm padlockForm = new padlockForm(this, padlockCodeOne, padlockCodeTwo, padlockCodeThree);
+            PadlockForm padlockForm = new PadlockForm(this, padlockCodeOne, padlockCodeTwo, padlockCodeThree);
 
             // Displays padlock form
             padlockForm.Show();
