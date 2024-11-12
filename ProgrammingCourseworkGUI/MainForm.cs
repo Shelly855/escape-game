@@ -7,7 +7,7 @@ using System.Xml.Linq;
 namespace ProgrammingCourseworkGUI
 {
     // Review: 'mainForm' doesn't follow standard naming conventions for classes (should be 'MainForm')
-    public partial class mainForm : Form
+    public partial class MainForm : Form
     {
         // Other forms
         private tutorialForm tutorialForm;
@@ -33,7 +33,7 @@ namespace ProgrammingCourseworkGUI
         private Inventory torch, bronzeKey, goldenBell, redCoin, orangeJewel, blueJewel, blackJewel, extractOfText,
                          greatMisfortuneSlip, misfortuneSlip, goodFortuneSlip, greatFortuneSlip, emptyPaperSlip;
 
-        public mainForm()
+        public MainForm()
         {
             InitializeComponent();
             UserStats();

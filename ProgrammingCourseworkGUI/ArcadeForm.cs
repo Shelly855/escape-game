@@ -13,11 +13,11 @@ namespace ProgrammingCourseworkGUI
     public partial class arcadeForm : Form
     {
 
-        private mainForm mainForm;
+        private MainForm mainForm;
         private string userAnswer;
         private bool puzzleSolved;
 
-        public arcadeForm(mainForm mainForm)
+        public arcadeForm(MainForm mainForm)
         {
             InitializeComponent();
             this.mainForm = mainForm;

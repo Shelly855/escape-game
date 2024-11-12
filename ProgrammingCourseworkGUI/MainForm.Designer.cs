@@ -1,6 +1,6 @@
 ﻿namespace ProgrammingCourseworkGUI
 {
-    partial class mainForm
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -192,14 +192,14 @@
             choiceLabel.TabIndex = 13;
             choiceLabel.Text = "Your Choice";
             // 
-            // mainForm
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1713, 780);
             Controls.Add(locationLabel);
             Controls.Add(tableLayoutPanel1);
-            Name = "mainForm";
+            Name = "MainForm";
             Text = "Main";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();

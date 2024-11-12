@@ -13,12 +13,12 @@ namespace ProgrammingCourseworkGUI
     public partial class padlockForm : Form
     {
         // Reference: https://social.msdn.microsoft.com/Forums/vstudio/en-US/6989594d-3ad9-4bc9-aa2c-98f0a59378b8/how-to-call-a-method-from-another-form-in-c-and-windows-forms?forum=csharpgeneral
-        private mainForm mainForm;
+        private MainForm mainForm;
 
         private int padlockCodeOne;
         private int padlockCodeTwo;
         private int padlockCodeThree;
-        public padlockForm(mainForm mainForm, int codeOne, int codeTwo, int codeThree)
+        public padlockForm(MainForm mainForm, int codeOne, int codeTwo, int codeThree)
         {
             InitializeComponent();
 

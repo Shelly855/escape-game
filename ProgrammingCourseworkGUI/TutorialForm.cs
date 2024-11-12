@@ -110,6 +110,7 @@ namespace ProgrammingCourseworkGUI
             this.Hide();
         }
 
+        // Reference = https://stackoverflow.com/questions/19641427/formclosing-and-formclosed-events-do-not-work
         private void tutorialForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (numberLabel.Text != "6")
@@ -122,6 +123,6 @@ namespace ProgrammingCourseworkGUI
             {
                 e.Cancel = false;
             }
-        } //reference = https://stackoverflow.com/questions/19641427/formclosing-and-formclosed-events-do-not-work
+        }
     }
 }
