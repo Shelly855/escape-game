@@ -18,6 +18,7 @@ namespace ProgrammingCourseworkGUI
         private bool fortuneTold = false; //for PickUpBox
         private bool padlockUnlocked = false;
         private bool goldenBellUsed = false;
+        private bool redCoinUsed = false;
 
         // List to contain items collected by player
         private List<Inventory> inventory = new List<Inventory>();
@@ -266,7 +267,7 @@ namespace ProgrammingCourseworkGUI
         private void OpenBottomDrawer()
         {
             subOptionLabel.Text = "";
-            if (!inventory.Contains(redCoin) && !inventory.Contains(torch))
+            if (!inventory.Contains(redCoin) && !inventory.Contains(torch) && !redCoinUsed)
             {
                 mainLabel.Text = "You find a Red Coin and a Torch in the Bottom Drawer!";
                 inventory.Add(redCoin);
@@ -427,13 +428,15 @@ namespace ProgrammingCourseworkGUI
 
             mainLabel.Text = "The arcade machine lets out a ding!\n" +
                              "A small compartment embedded in the machine whirrs open.\n" +
-                             "You find a Blue Jewel!\n" +
-                             "The machine returns the Red Coin.";
+                             "You find a Blue Jewel!";
 
             inventory.Add(blueJewel);
             inventoryListBox.Items.Add(blueJewel.name);
 
             arcadePuzzleSolved = true;
+            inventory.Remove(redCoin);
+            inventoryListBox.Items.Remove(redCoin.name);
+            redCoinUsed = true;
             choiceComboBox.Items.Remove("Left curtain");
         }
 
