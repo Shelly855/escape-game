@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace ProgrammingCourseworkGUI
 {
-    public partial class arcadeForm : Form
+    public partial class ArcadeForm : Form
     {
 
         private MainForm mainForm;
         private string userAnswer;
         private bool puzzleSolved;
 
-        public arcadeForm(MainForm mainForm)
+        public ArcadeForm(MainForm mainForm)
         {
             InitializeComponent();
             this.mainForm = mainForm;
@@ -59,5 +59,3 @@ namespace ProgrammingCourseworkGUI
         }
     }
 }
-
-//puzzle from https://game8.co/games/Honkai-Star-Rail/archives/409802

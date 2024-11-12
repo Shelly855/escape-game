@@ -6,12 +6,11 @@ using System.Xml.Linq;
 
 namespace ProgrammingCourseworkGUI
 {
-    // Review: 'mainForm' doesn't follow standard naming conventions for classes (should be 'MainForm')
     public partial class MainForm : Form
     {
         // Other forms
         private tutorialForm tutorialForm;
-        private arcadeForm arcadeForm;
+        private ArcadeForm arcadeForm;
 
         // To track status of puzzles and events
         private bool arcadePuzzleSolved = false;
@@ -40,7 +39,7 @@ namespace ProgrammingCourseworkGUI
             inventoryListBox.SelectedIndexChanged += InventoryListBox_SelectedIndexChanged;
 
             tutorialForm = new tutorialForm();
-            arcadeForm = new arcadeForm(this);
+            arcadeForm = new ArcadeForm(this);
             choiceComboBox.SelectedIndexChanged += choiceComboBox_SelectedIndexChanged;
             PopulateChoices("Room");
 

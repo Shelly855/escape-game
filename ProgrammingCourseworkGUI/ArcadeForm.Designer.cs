@@ -1,6 +1,6 @@
 ﻿namespace ProgrammingCourseworkGUI
 {
-    partial class arcadeForm
+    partial class ArcadeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -77,7 +77,7 @@
             promptLabel.Text = "        ";
             promptLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // arcadeForm
+            // ArcadeForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -86,7 +86,7 @@
             Controls.Add(confirmButton);
             Controls.Add(answerTextBox);
             Controls.Add(arcadeLabel);
-            Name = "arcadeForm";
+            Name = "ArcadeForm";
             Text = "Arcade Machine";
             FormClosing += arcadeForm_FormClosing;
             ResumeLayout(false);
