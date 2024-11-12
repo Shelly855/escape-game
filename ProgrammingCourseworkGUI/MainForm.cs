@@ -150,10 +150,11 @@ namespace ProgrammingCourseworkGUI
             }
             else
             {
+                choiceComboBox.Items.Remove("Left curtain");
                 PopulateChoices("Window");
             }
         }
-
+        
         private void choiceComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selectedChoice = choiceComboBox.SelectedItem.ToString();
@@ -191,7 +192,10 @@ namespace ProgrammingCourseworkGUI
                     ExaminePictureFrame();
                     break;
                 case "Left curtain":
-                    PopulateChoices("Left Curtain");
+                    if (!arcadePuzzleSolved)
+                    {
+                        PopulateChoices("Left Curtain");
+                    }
                     break;
                 case "Right curtain":
                     ExamineRightCurtain();
@@ -429,6 +433,7 @@ namespace ProgrammingCourseworkGUI
             inventoryListBox.Items.Add(blueJewel.name);
 
             arcadePuzzleSolved = true;
+            choiceComboBox.Items.Remove("Left curtain");
         }
 
         private void GoToBed()
