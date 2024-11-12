@@ -127,16 +127,17 @@
             // 
             // choiceComboBox
             // 
+            choiceComboBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             choiceComboBox.FormattingEnabled = true;
-            choiceComboBox.Location = new Point(42, 131);
+            choiceComboBox.Location = new Point(28, 131);
             choiceComboBox.Name = "choiceComboBox";
-            choiceComboBox.Size = new Size(151, 28);
+            choiceComboBox.Size = new Size(186, 36);
             choiceComboBox.TabIndex = 22;
             // 
             // tutorialButton
             // 
             tutorialButton.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            tutorialButton.Location = new Point(1504, 702);
+            tutorialButton.Location = new Point(1442, 690);
             tutorialButton.Name = "tutorialButton";
             tutorialButton.Size = new Size(193, 55);
             tutorialButton.TabIndex = 23;

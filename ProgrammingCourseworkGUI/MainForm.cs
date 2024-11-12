@@ -154,7 +154,7 @@ namespace ProgrammingCourseworkGUI
                 PopulateChoices("Window");
             }
         }
-        
+
         private void choiceComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selectedChoice = choiceComboBox.SelectedItem.ToString();
