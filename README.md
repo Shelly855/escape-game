@@ -1,11 +1,12 @@
-# C# GUI Escape Game (Completed on 10/12/23)
+# C# GUI Escape Game
+*(Completed on 10/12/23)*
 
 A simple escape-the-room game built with C# and Windows Forms in Visual Studio 2019, focusing on fundamental C# skills.
 
 ## Gameplay
 The player explores different locations, collects items, solves puzzles, and eventually escapes the room.
 
-## Features
+## C# Features
 - Basic Loops
 - Operators
 - If-Else Statements
